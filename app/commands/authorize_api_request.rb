@@ -1,4 +1,4 @@
-# app/commands/check_if_authorized.rb
+# app/commands/authorize_api_request.rb
 
 class AuthorizeApiRequest
   prepend SimpleCommand
