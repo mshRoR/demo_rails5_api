@@ -21,6 +21,8 @@ gem 'active_model_serializers'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'jwt'
 gem 'simple_command'
+# Rack middleware for blocking & throttling abusive requests
+gem 'rack-attack'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
